@@ -1,2 +1,2 @@
-DATABASE_NAME = "ineuron"
+DATABASE_NAME = "iNeuronDatabase"
 COLLECTION_NAME = "sensor"
