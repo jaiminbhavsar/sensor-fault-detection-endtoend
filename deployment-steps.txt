@@ -30,7 +30,7 @@
 	
 4. ECR repo to store/save docker image
 	566373416292.dkr.ecr.ap-south-1.amazonaws.com/sensor-fault
-	
+	479623627874.dkr.ecr.ap-south-1.amazonaws.com/sensor-fault-jaimin
 5. EC2 machine  Ubuntu  Created
 
 6. Open EC2 and Install docker in EC2 Machine 
@@ -43,7 +43,7 @@
 	#required
 	curl -fsSL https://get.docker.com -o get-docker.sh
 	sudo sh get-docker.sh
-	sudo usermod -aG docker ubuntu
+	sudo usermod -aG docker ubuntu -- this command used to remove sudo everytime user write 
 	newgrp docker
 	
 7. Configure EC2 as self-hosted runner
@@ -63,4 +63,4 @@ AWS_ECR_LOGIN_URI=566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
 ECR_REPOSITORY_NAME=sensor-fault
 
-MONGO_DB_URL=mongodb+srv://avnish:Aa327030@cluster0.or68e.mongodb.net/admin?authSource=admin&replicaSet=atlas-desfdx-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
+MONGO_DB_URL=mongodb+srv://iNeuronDatabase:Jp.29392@jaiminml.ngbccga.mongodb.net/
